@@ -1,0 +1,15 @@
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\bin\Debug\net7.0\TCPServerTest.exe
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\bin\Debug\net7.0\TCPServerTest.deps.json
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\bin\Debug\net7.0\TCPServerTest.runtimeconfig.json
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\bin\Debug\net7.0\TCPServerTest.dll
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\bin\Debug\net7.0\TCPServerTest.pdb
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.csproj.AssemblyReference.cache
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.AssemblyInfoInputs.cache
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.AssemblyInfo.cs
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.csproj.CoreCompileInputs.cache
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.dll
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\refint\TCPServerTest.dll
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.pdb
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.genruntimeconfig.cache
+C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\ref\TCPServerTest.dll
