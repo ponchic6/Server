@@ -1,4 +1,6 @@
 using System.Net.Sockets;
+using System.Text.Json;
+using TCPServerTest;
 
 public class Client
 {
@@ -6,7 +8,8 @@ public class Client
     private readonly int _id;
     private StreamWriter _streamWriter;
     private Server _server;
-    
+    private Queue<string> _recievedMessages;
+
     public int Id => _id;
     public StreamWriter StreamWriter => _streamWriter;
 
@@ -20,10 +23,10 @@ public class Client
         _server = server;
     }
 
-    public async Task ProcessAsync()
+    public async Task RecievAsync()
     {
         StreamReader streamReader = new StreamReader(_tcpClient.GetStream());
-
+        
         while (true)
         {
             if (streamReader.EndOfStream)
@@ -33,9 +36,12 @@ public class Client
                 break;
             }
 
-            string? message = await streamReader.ReadLineAsync();
-            message += ", " + _id;
-            await _server.BroadcastMessageAsync(message, _id);
+            string message = streamReader.ReadLine();
+            TransformProperties transformProperties = JsonSerializer.Deserialize<TransformProperties>(message);
+            transformProperties.Id = _id;
+            string sendMessage = JsonSerializer.Serialize(transformProperties);
+            Console.WriteLine(sendMessage);
+            await _server.BroadcastMessageAsync(sendMessage, _id);
         }
     }
 }

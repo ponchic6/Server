@@ -19,8 +19,8 @@ public class Server
             TcpClient tcpClient = await _tcpListener.AcceptTcpClientAsync();
             Client client = new Client(tcpClient, id, this);
             _clients.Add(client);
-            Console.WriteLine($"{tcpClient} was connected");
-            Task.Run(client.ProcessAsync);
+            Console.WriteLine($"{tcpClient.Client.RemoteEndPoint} was connected");
+            Task.Run(client.RecievAsync);
             id++;
         }
     }
@@ -32,7 +32,6 @@ public class Server
             if (client.Id != exceptId)
             {
                 await client.StreamWriter.WriteLineAsync(message);
-                await client.StreamWriter.FlushAsync();
             }
         }
     }
