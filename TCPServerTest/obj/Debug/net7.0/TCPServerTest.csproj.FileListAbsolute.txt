@@ -13,3 +13,17 @@ C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0
 C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.pdb
 C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\TCPServerTest.genruntimeconfig.cache
 C:\Users\Чиллер\RiderProjects\TCPServerTest\TCPServerTest\obj\Debug\net7.0\ref\TCPServerTest.dll
+C:\UnityProjectsFromGit\Server\TCPServerTest\bin\Debug\net7.0\TCPServerTest.exe
+C:\UnityProjectsFromGit\Server\TCPServerTest\bin\Debug\net7.0\TCPServerTest.deps.json
+C:\UnityProjectsFromGit\Server\TCPServerTest\bin\Debug\net7.0\TCPServerTest.runtimeconfig.json
+C:\UnityProjectsFromGit\Server\TCPServerTest\bin\Debug\net7.0\TCPServerTest.dll
+C:\UnityProjectsFromGit\Server\TCPServerTest\bin\Debug\net7.0\TCPServerTest.pdb
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\TCPServerTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\TCPServerTest.AssemblyInfoInputs.cache
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\TCPServerTest.AssemblyInfo.cs
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\TCPServerTest.csproj.CoreCompileInputs.cache
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\TCPServerTest.dll
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\refint\TCPServerTest.dll
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\TCPServerTest.pdb
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\TCPServerTest.genruntimeconfig.cache
+C:\UnityProjectsFromGit\Server\TCPServerTest\obj\Debug\net7.0\ref\TCPServerTest.dll

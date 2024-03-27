@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9r4j4XuOpRIYG/OVr7w2iPBnM0ZoQ0/z+lfmhz5qsc54OpikduztnVqyFpb4HPM9gpDfA2aNPGv5WVRULFtsIQ==",
+  "dgSpecHash": "/bfOwhHETQ/1BSa5LPFob4e2IjU5ejyV74ZMAN2NNaYLeMD+Cg18X8HOpPH3x7es7Qmz658WoY8+qSlfJ8RPCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Чиллер\\RiderProjects\\TCPServerTest\\TCPServerTest\\TCPServerTest.csproj",
+  "projectFilePath": "C:\\UnityProjectsFromGit\\Server\\TCPServerTest\\TCPServerTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

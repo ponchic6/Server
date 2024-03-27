@@ -8,7 +8,7 @@ public class Client
     private readonly int _id;
     private StreamWriter _streamWriter;
     private Server _server;
-    private Queue<string> _recievedMessages;
+    private string? _message;
 
     public int Id => _id;
     public StreamWriter StreamWriter => _streamWriter;
@@ -36,12 +36,16 @@ public class Client
                 break;
             }
 
-            string message = streamReader.ReadLine();
-            TransformProperties transformProperties = JsonSerializer.Deserialize<TransformProperties>(message);
+            _message = await streamReader.ReadLineAsync();
+            
+            if (_message == "")
+            {
+                Console.WriteLine("kek");    
+            }
+                
+            TransformProperties transformProperties = JsonSerializer.Deserialize<TransformProperties>(_message);
             transformProperties.Id = _id;
-            string sendMessage = JsonSerializer.Serialize(transformProperties);
-            Console.WriteLine(sendMessage);
-            await _server.BroadcastMessageAsync(sendMessage, _id);
+            _server.RecievedMessage.Enqueue(transformProperties);
         }
     }
 }
